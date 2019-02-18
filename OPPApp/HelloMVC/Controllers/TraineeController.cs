@@ -16,7 +16,7 @@ namespace HelloMVC.Controllers
 
             return View();
         }
-        [HttpGet]
+        [HttpPost]
         public IActionResult Entry(Trainee model)
         {
             if (ModelState.IsValid)
