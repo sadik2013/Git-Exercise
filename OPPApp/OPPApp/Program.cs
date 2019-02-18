@@ -14,9 +14,12 @@ namespace OPPApp
 
             Console.WriteLine(onePerson.GetFullName());
 
+            onePerson.RoadNo = "11";
+            onePerson.HouseNo = "19";
+            onePerson.City = "Uttara";
+            onePerson.Sector = "9";
 
-
-
+            Console.WriteLine(onePerson.FullAddress());
 
             Console.ReadKey();
         }

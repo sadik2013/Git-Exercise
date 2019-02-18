@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OPPApp
 {
-    public class Person
+    public class Person:Address
     {
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
