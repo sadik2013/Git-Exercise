@@ -9,9 +9,13 @@ namespace HelloMVC.Controllers
 {
     public class TraineeController : Controller
     {
-        public string Entry(Trainee model)
+        public IActionResult Entry(Trainee model)
         {
-            return "Name:" + model.Name + " " + "Reg No:" + model.RegNo;
+            if (ModelState.IsValid)
+            {
+                //database 
+            }
+            return View();
         }
 
     }
