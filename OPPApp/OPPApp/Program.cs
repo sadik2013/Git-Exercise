@@ -6,7 +6,18 @@ namespace OPPApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Person onePerson= new Person();
+            onePerson.FirstName = "Rafiqul";
+            onePerson.MiddleName = "Islam";
+            onePerson.LastName = "Sadik";
+
+            Console.WriteLine(onePerson.GetFullName());
+
+
+
+
+
             Console.ReadKey();
         }
     }
